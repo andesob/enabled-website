@@ -6,9 +6,9 @@ class Homepage extends Component {
         return (
             <div className={"mainContainer"}>
                 <header className={"titleHeader"}>
-                    <div className="headerDiv">
+                    <h1 className={"headerDiv"}>
                         Enabled EEG
-                    </div>
+                    </h1>
                 </header>
 
                 <div className={"homepageTextDiv"}>

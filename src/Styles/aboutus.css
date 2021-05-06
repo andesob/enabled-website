@@ -1,0 +1,13 @@
+.aboutUsTextDiv {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    padding: 2%;
+}
+
+.meetUsImageDiv img{
+    border-radius: 360px;
+    max-width: 10%;
+    margin: 10px;
+}
