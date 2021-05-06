@@ -1,0 +1,56 @@
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #7F99A6;
+}
+
+.innerHeader{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+.logoDiv{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    height: 80%;
+    border-radius: 360px;
+}
+
+.headerListDiv{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav {
+    height: 100%;
+    float: right;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav a{
+    height: 100%;
+    float: left;
+    padding: 0px 40px;
+}
+
+.nav a:last-child{
+    padding-right: 0;
+}
+
+.nav a li{
+
+    vertical-align: middle;
+    height: 100%;
+    color: #fcb7a0;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
