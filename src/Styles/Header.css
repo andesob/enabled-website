@@ -1,56 +1,51 @@
-header{
+.enabledHeader {
     height: 100px;
     width: 100%;
     background-color: #7F99A6;
 }
 
-.innerHeader{
-    width: 1000px;
-    height: 100%;
+.innerHeader {
+    display: flex;
     margin: auto;
+    height: 100%;
 }
 
-.logoDiv{
+.logoDiv {
     display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+    margin: auto;
+    height: 50%;
+    padding: 0 5%;
 }
 
-.logo{
-    display: block;
+.logo {
     margin: auto;
-    height: 80%;
+    height: 100%;
     border-radius: 360px;
 }
 
-.headerListDiv{
+.headerListDiv {
     display: inline-block;
-    vertical-align: middle;
+    margin: auto;
+    width: 100%;
 }
 
 .nav {
-    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+.nav li {
+    margin: auto;
+    padding: 0 2%;
     float: right;
-    margin: 0;
     list-style-type: none;
 }
 
-.nav a{
-    height: 100%;
-    float: left;
-    padding: 0px 40px;
-}
-
-.nav a:last-child{
-    padding-right: 0;
-}
-
-.nav a li{
-
-    vertical-align: middle;
-    height: 100%;
+.nav li a {
+    display: block;
+    padding: 5px;
     color: #fcb7a0;
     font-size: 20px;
     font-family: Georgia;
 }
-

@@ -6,28 +6,22 @@ import enabledLogo from '../Images/enabled_logo.png'
 class Header extends Component {
     render() {
         return (
-            <header>
+            <header className={"enabledHeader"}>
                 <div className={"innerHeader"}>
                     <div className={"logoDiv"}>
                         <img className={"logo"} src={enabledLogo} alt={"hello"}/>
                     </div>
                     <div className={"headerListDiv"}>
                         <ul className={"nav"}>
-                            <a>
-                                <li>
-                                    About Us
-                                </li>
-                            </a>
-                            <a>
-                                <li>
-                                    Download
-                                </li>
-                            </a>
-                            <a>
-                                <li>
-                                    Support Us
-                                </li>
-                            </a>
+                            <li>
+                                <a>About Us</a>
+                            </li>
+                            <li>
+                                <a>Download</a>
+                            </li>
+                            <li>
+                                <a>Support Us</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
