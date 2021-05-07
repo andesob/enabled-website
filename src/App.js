@@ -6,6 +6,7 @@ import {
 import Homepage from "./Pages/Homepage";
 import AboutUs from "./Pages/AboutUs";
 import Header from "./components/Header";
+import Download from "./Pages/Download";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
         <Route exact path='/' component={Homepage} />
         <Route exact path='/aboutus' component={AboutUs}/>
+        <Route exact path='/download' component={Download}/>
       </div>
     </Router>
   );
