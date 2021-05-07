@@ -1,0 +1,68 @@
+.aboutUsDivBox{
+    height: 100vh;
+    border-bottom-style: solid;
+    border-color: #a6b7bf;
+    border-width: 1px;
+}
+
+.aboutUsTextDiv {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.meetUsImageDiv div div div img {
+    border-radius: 360px;
+    max-width: 100%;
+}
+
+
+.twoDevDivBox {
+    min-height: 105vh;
+    border-bottom-style: solid;
+    border-color: #a6b7bf;
+    border-width: 1px;
+    padding: 5%;
+}
+
+.twoDevDivBox h1{
+    margin: 0 0 20px 0;
+}
+
+.twoDevDivBox div a {
+    display: block;
+}
+
+.twoDevLinksPicsDiv {
+    width: 100%;
+    display: block;
+}
+
+.twoDevLinksPicsDiv div {
+    display: inline-block;
+    width: 50%;
+}
+
+.githubNameLink {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 15px;
+    color: black;
+}
+
+.githubNameLink a:hover {
+    text-decoration: underline;
+}
+
+.singleDevDiv p{
+    margin: auto;
+    text-align: left;
+    width: 75%;
+}
+
+.githubPicture{
+    margin: 10px auto;
+    border-radius: 360px;
+    max-width: 30%;
+}

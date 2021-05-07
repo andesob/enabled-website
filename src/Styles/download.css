@@ -1,0 +1,51 @@
+h1{
+    padding-bottom: 5vh;
+}
+
+.btn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin: 0 1vw;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+.btn:hover span{
+    color: black;
+}
+
+.desktopDownload{
+    height: 38vh;
+}
+
+.desktopDownload div p{
+    padding-bottom: 3vh;
+    margin: 0 20vw;
+}
+
+.downloadButtonDiv{
+    margin: auto;
+    display: block;
+}
+
+.downloadButtonDiv div{
+    display: inline-block;
+    width: 20%;
+}
+
+.downloadButtonDiv a{
+    padding: 12px 30px;
+    margin: 0 1vw;
+}
+
+.downloadButtonDiv a img{
+    height: 7vh;
+}

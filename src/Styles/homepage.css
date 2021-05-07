@@ -1,0 +1,19 @@
+.homepageTextDiv {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.titleHeader {
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+.headerDiv {
+    color: #fcb7a0;
+    background: -webkit-linear-gradient(45deg, #ffecd2, #fcb7a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
