@@ -17,13 +17,13 @@ class Header extends Component {
                     <div className={"headerListDiv"}>
                         <ul className={"nav"}>
                             <li>
-                                <Link to={'/aboutus'}>About Us</Link>
+                                <a href={'https://www.buymeacoffee.com/enableda'}>Support Us</a>
                             </li>
                             <li>
                                 <Link to={'/download'}>Download</Link>
                             </li>
                             <li>
-                                <a href={'https://www.buymeacoffee.com/enableda'}>Support Us</a>
+                                <Link to={'/aboutus'}>About Us</Link>
                             </li>
                         </ul>
                     </div>

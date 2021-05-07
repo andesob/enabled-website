@@ -5,7 +5,7 @@
 }
 
 .innerHeader {
-    width: 70%;
+    width: 100%;
     display: flex;
     margin: auto;
     height: 100%;
@@ -13,6 +13,7 @@
 
 .logoDiv {
     display: inline-block;
+
     margin: auto;
     height: 75%;
     padding: 0 5%;
