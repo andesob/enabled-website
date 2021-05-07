@@ -1,0 +1,15 @@
+.footerPageDiv{
+    height: 5vh;
+    background: -webkit-linear-gradient(45deg, #ffecd2, #fcb7a0);
+}
+
+.footer{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.footer div{
+    margin: auto;
+}
