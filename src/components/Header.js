@@ -11,7 +11,7 @@ class Header extends Component {
                 <div className={"innerHeader"}>
                     <div className={"logoDiv"}>
                         <Link to={"/"}>
-                            <img className={"logo"} src={enabledLogo} alt={"hello"}/>
+                            <img className={"logo"} src={enabledLogo} alt={"Logo"}/>
                         </Link>
                     </div>
                     <div className={"headerListDiv"}>

@@ -1,7 +1,7 @@
 .enabledHeader {
-    height: 100px;
+    height: 10vh;
     width: 100%;
-    background-color: #7F99A6;
+    background: -webkit-linear-gradient(45deg, #ffecd2, #fcb7a0);
 }
 
 .innerHeader {
@@ -13,7 +13,7 @@
 .logoDiv {
     display: inline-block;
     margin: auto;
-    height: 50%;
+    height: 75%;
     padding: 0 5%;
 }
 
@@ -45,7 +45,7 @@
 .nav li a {
     display: block;
     padding: 5px;
-    color: #fcb7a0;
+    color: #7F99A6;
     font-size: 20px;
-    font-family: Georgia;
+    font-weight: bold;
 }

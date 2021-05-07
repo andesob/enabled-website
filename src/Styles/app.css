@@ -2,4 +2,9 @@
     background: #7F99A6;
     text-align: center;
     min-height: 100vh;
+    font-family: 'BioRhyme', serif;
+}
+
+.mainContainer{
+    min-height: 85vh;
 }
