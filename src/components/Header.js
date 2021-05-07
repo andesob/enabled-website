@@ -2,6 +2,7 @@ import {Component} from "react/cjs/react.production.min";
 import "../Styles/Header.css"
 import React from 'react';
 import enabledLogo from '../Images/enabled_logo.png'
+import {Link} from "react-router-dom";
 
 class Header extends Component {
     render() {
@@ -9,18 +10,20 @@ class Header extends Component {
             <header className={"enabledHeader"}>
                 <div className={"innerHeader"}>
                     <div className={"logoDiv"}>
-                        <img className={"logo"} src={enabledLogo} alt={"hello"}/>
+                        <Link to={"/"}>
+                            <img className={"logo"} src={enabledLogo} alt={"hello"}/>
+                        </Link>
                     </div>
                     <div className={"headerListDiv"}>
                         <ul className={"nav"}>
                             <li>
-                                <a>About Us</a>
+                                <Link to={"/aboutus"}>About us</Link>
                             </li>
                             <li>
-                                <a>Download</a>
+                                <Link to={"/"}>Download</Link>
                             </li>
                             <li>
-                                <a>Support Us</a>
+                                <Link to={"/"}>Support us</Link>
                             </li>
                         </ul>
                     </div>
