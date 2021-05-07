@@ -5,6 +5,7 @@
 }
 
 .innerHeader {
+    width: 70%;
     display: flex;
     margin: auto;
     height: 100%;
@@ -37,7 +38,7 @@
 
 .nav li {
     margin: auto;
-    padding: 0 2%;
+    padding: 0 4%;
     float: right;
     list-style-type: none;
 }
