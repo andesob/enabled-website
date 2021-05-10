@@ -1,7 +1,8 @@
 import {Component} from "react/cjs/react.production.min";
 import "../Styles/download.css"
 import React from "react";
-import AppDownload from '../Images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'
+import AppStoreDownload from '../Images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'
+import GooglePlayDownload from '../Images/google-play-badge.png';
 
 class Download extends Component {
     render() {
@@ -28,12 +29,12 @@ class Download extends Component {
                     <div className={"downloadButtonDiv"}>
                         <div>
                             <a href={""}>
-                                <img className={"logo"} src={AppDownload} alt={"Download From App Store"}></img>
+                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}></img>
                             </a>
                         </div>
                         <div>
                             <a href={""}>
-                                <img className={"logo"} src={AppDownload} alt={"Download From App Store"}></img>
+                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}></img>
                             </a>
                         </div>
                     </div>
@@ -54,12 +55,12 @@ class Download extends Component {
                     <div className={"downloadButtonDiv"}>
                         <div>
                             <a href={""}>
-                                <img className={"logo"} src={AppDownload} alt={"Download From App Store"}></img>
+                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}></img>
                             </a>
                         </div>
                         <div>
-                            <a href={""}>
-                                <img className={"logo"} src={AppDownload} alt={"Download From App Store"}></img>
+                            <a href='https://play.google.com/store/apps/details?id=no.ntnu.enabled_app&fbclid=IwAR3B2oSsKCZo_EtO-yh_6DfOyLaKbZDumd-NBUHIeoT4mG2T1d4k4QZ52Mg&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                                <img className={"androidLogo"} alt='Get it on Google Play' src={GooglePlayDownload}/>
                             </a>
                         </div>
                     </div>
