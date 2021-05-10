@@ -23,7 +23,7 @@ h1{
 }
 
 .desktopDownload{
-    height: 38vh;
+    height: 35vh;
 }
 
 .desktopDownload div p{
@@ -46,6 +46,11 @@ h1{
     margin: 0 1vw;
 }
 
-.downloadButtonDiv a img{
+.appStoreLogo{
     height: 7vh;
+}
+
+.androidLogo{
+    height: 7vh;
+    width: auto;
 }
