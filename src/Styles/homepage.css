@@ -19,7 +19,19 @@
 }
 
 .youtubeDiv{
-    max-width: 560px;
-    max-height: 315px;
+    width: 100%;
+}
+
+.youtubeDiv iframe{
+    width: 40vw;
+    height: 22vw;
     margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .youtubeDiv iframe{
+        width: 75vw;
+        height: 42vw;
+        margin: auto;
+    }
 }
