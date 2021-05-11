@@ -17,3 +17,8 @@
     -webkit-text-fill-color: transparent;
     margin: 0;
 }
+
+.youtubeDiv{
+    max-width: 560px;
+    max-height: 315px;
+}

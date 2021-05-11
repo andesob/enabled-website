@@ -8,10 +8,10 @@ class Footer extends Component {
             <div className={"footerPageDiv"}>
                 <footer className={"footer"}>
                     <div>
-                        <Link to={"/privacypolicy"}>Privacy Policy</Link>
+                        Contact us at <a href={"mailto: eegcpslab@gmail.com"}>eegcpslab@gmail.com</a>
                     </div>
                     <div>
-                        Contact us at <a href={"mailto: eegcpslab@gmail.com"}>eegcpslab@gmail.com</a>
+                        <Link to={"/privacypolicy"}>Privacy Policy</Link>
                     </div>
                     <div>
                         Last modified: {document.lastModified}
