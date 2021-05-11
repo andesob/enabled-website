@@ -7,13 +7,13 @@ class Footer extends Component {
         return (
             <div className={"footerPageDiv"}>
                 <footer className={"footer"}>
-                    <div>
-                        Contact us at <a href={"mailto: eegcpslab@gmail.com"}>eegcpslab@gmail.com</a>
+                    <div className={"footerObjectDiv"}>
+                            Contact us at <a href={"mailto: eegcpslab@gmail.com"}>eegcpslab@gmail.com</a>
                     </div>
-                    <div>
-                        <Link to={"/privacypolicy"}>Privacy Policy</Link>
+                    <div className={"footerObjectDiv"}>
+                            <Link to={"/privacypolicy"}>Privacy Policy</Link>
                     </div>
-                    <div>
+                    <div className={"footerObjectDiv"}>
                         Last modified: {document.lastModified}
                     </div>
                 </footer>
