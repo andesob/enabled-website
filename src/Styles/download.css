@@ -53,11 +53,11 @@ h1{
 }
 
 .appStoreLogo{
-    width: 20vw;
+    width: 10vw;
 }
 
 .androidLogo{
-    width: 20vw;
+    width: 10vw;
 }
 
 @media only screen and (max-width: 768px) {
