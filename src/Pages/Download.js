@@ -29,12 +29,12 @@ class Download extends Component {
                     <div className={"downloadButtonDiv"}>
                         <div>
                             <a href={""}>
-                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}></img>
+                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}/>
                             </a>
                         </div>
                         <div>
                             <a href={""}>
-                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}></img>
+                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}/>
                             </a>
                         </div>
                     </div>
@@ -54,8 +54,8 @@ class Download extends Component {
                     </div>
                     <div className={"downloadButtonDiv"}>
                         <div>
-                            <a href={""}>
-                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}></img>
+                            <a href={"https://apps.apple.com/us/app/enabled-eeg/id1566325616"}>
+                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}/>
                             </a>
                         </div>
                         <div>
