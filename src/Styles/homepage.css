@@ -21,4 +21,5 @@
 .youtubeDiv{
     max-width: 560px;
     max-height: 315px;
+    margin: auto;
 }
