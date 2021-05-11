@@ -21,21 +21,26 @@ class Download extends Component {
                             dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                            remaining essentially unchanged. It was popularised in the 1960s with the release of
+                            Letraset
                             sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
                             like Aldus PageMaker including versions of Lorem Ipsum
                         </p>
                     </div>
                     <div className={"downloadButtonDiv"}>
-                        <div>
-                            <a href={""}>
-                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}/>
-                            </a>
-                        </div>
-                        <div>
-                            <a href={""}>
-                                <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}/>
-                            </a>
+                        <div className={"downloadButtonPairDiv"}>
+                            <div className={"singleDownloadBtnDiv"}>
+                                <a className={"downloadLink"} href={""}>
+                                    <img className={"appStoreLogo"} src={AppStoreDownload}
+                                         alt={"Download From App Store"}/>
+                                </a>
+                            </div>
+                            <div className={"singleDownloadBtnDiv"}>
+                                <a className={"downloadLink"} href={""}>
+                                    <img className={"appStoreLogo"} src={AppStoreDownload}
+                                         alt={"Download From App Store"}/>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -47,19 +52,20 @@ class Download extends Component {
                             dummy text ever since the 1500s,
                             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             It has survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                            remaining essentially unchanged. It was popularised in the 1960s with the release of
+                            Letraset
                             sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
                             like Aldus PageMaker including versions of Lorem Ipsum
                         </p>
                     </div>
                     <div className={"downloadButtonDiv"}>
-                        <div>
-                            <a href={"https://apps.apple.com/us/app/enabled-eeg/id1566325616"}>
+                        <div className={"singleDownloadBtnDiv"}>
+                            <a className={"downloadLink"} href={"https://apps.apple.com/us/app/enabled-eeg/id1566325616"}>
                                 <img className={"appStoreLogo"} src={AppStoreDownload} alt={"Download From App Store"}/>
                             </a>
                         </div>
-                        <div>
-                            <a href='https://play.google.com/store/apps/details?id=no.ntnu.enabled_app&fbclid=IwAR3B2oSsKCZo_EtO-yh_6DfOyLaKbZDumd-NBUHIeoT4mG2T1d4k4QZ52Mg&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                        <div className={"singleDownloadBtnDiv"}>
+                            <a className={"downloadLink"} href='https://play.google.com/store/apps/details?id=no.ntnu.enabled_app&fbclid=IwAR3B2oSsKCZo_EtO-yh_6DfOyLaKbZDumd-NBUHIeoT4mG2T1d4k4QZ52Mg&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
                                 <img className={"androidLogo"} alt='Get it on Google Play' src={GooglePlayDownload}/>
                             </a>
                         </div>

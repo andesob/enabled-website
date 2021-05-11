@@ -1,5 +1,5 @@
 .aboutUsDivBox{
-    height: 100vh;
+    min-height: 100vh;
     border-bottom-style: solid;
     border-color: #a6b7bf;
     border-width: 1px;

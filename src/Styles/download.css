@@ -23,34 +23,67 @@ h1{
 }
 
 .desktopDownload{
-    height: 35vh;
+    min-height: 35vh;
 }
 
 .desktopDownload div p{
-    padding-bottom: 3vh;
     margin: 0 20vw;
 }
 
 .downloadButtonDiv{
+    height: 7vh;
     margin: auto;
+    padding: 4%;
     display: block;
 }
 
-.downloadButtonDiv div{
+.singleDownloadBtnDiv{
     display: inline-block;
-    width: 20%;
+    padding: 0 5%;
 }
 
-.downloadButtonDiv a{
-    padding: 12px 30px;
-    margin: 0 1vw;
+.downloadButtonPairDiv{
+    margin: auto;
+    height: 7vh;
+}
+
+.downloadLink{
+    display: block;
+    height: 7vh;
 }
 
 .appStoreLogo{
-    height: 7vh;
+    width: 20vw;
 }
 
 .androidLogo{
-    height: 7vh;
-    width: auto;
+    width: 20vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .singleDownloadBtnDiv{
+        display: block;
+        padding: 5% 0;
+    }
+
+    .downloadButtonDiv{
+        margin: auto;
+        padding: 4%;
+        display: block;
+        height: auto;
+    }
+
+    .downloadButtonPairDiv{
+        margin: auto;
+        height: auto;
+    }
+
+    .appStoreLogo{
+        width: 50vw;
+    }
+
+    .androidLogo{
+        width: 50vw;
+    }
+
 }

@@ -4,7 +4,7 @@
 }
 
 .footer{
-    display: inline-flex;
+    display: inline-block;
     width: 100%;
     height: 100%;
     justify-content: space-evenly;
@@ -12,4 +12,14 @@
 
 .footer div{
     margin: auto;
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        margin: auto;
+        font-size: 10px;
+    }
 }
