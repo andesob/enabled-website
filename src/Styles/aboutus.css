@@ -66,3 +66,9 @@
     border-radius: 360px;
     max-width: 30%;
 }
+
+.githubList{
+    display: table;
+    text-align: left;
+    margin: auto;
+}

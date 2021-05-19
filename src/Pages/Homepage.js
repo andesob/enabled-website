@@ -13,31 +13,38 @@ class Homepage extends Component {
 
                 <div className={"homepageTextDiv"}>
                     <p className={"homepageParagraph"}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod felis et odio ultricies
-                        eleifend.
-                        Ut quis malesuada nunc. Donec erat metus, accumsan eu metus quis, pulvinar dapibus diam. Duis
-                        mollis ac
-                        arcu sed euismod. Morbi in faucibus enim, eu malesuada risus. Curabitur ac facilisis sem.
-                        Curabitur
-                        viverra dolor eu quam fringilla viverra. Integer blandit viverra tellus, non ullamcorper tortor
-                        aliquet
-                        eget. Donec feugiat, nibh vel tempor tristique, est est tincidunt lorem, vitae scelerisque elit
-                        odio et
-                        nulla. Duis quis placerat arcu. Praesent accumsan ipsum sem, quis vestibulum ex facilisis et.
-                        Donec sit
-                        amet metus nec neque pharetra luctus. Nulla bibendum sapien a consequat egestas. Sed semper orci
-                        neque,
-                        id tristique velit facilisis eget. Praesent vel neque quis risus fermentum hendrerit ut sed
-                        eros.
+                        Enabled EEG was developed to help people with ALS or other disabilities to improve their
+                        communication with family, friends, and health personnel, as well as improve their independence
+                        and overall life quality.<br/><br/>
 
-                        Quisque sed convallis neque, non congue eros. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
-                        Cras vulputate mauris et justo blandit finibus. Pellentesque eu auctor urna, vel pellentesque
-                        magna.
-                        Quisque hendrerit pretium faucibus. Suspendisse id ligula arcu. Phasellus congue lacus vel mi
-                        ullamcorper, sed ullamcorper dolor faucibus. Donec placerat urna a massa consequat tempus. In
-                        laoreet
-                        velit ex, et suscipit est laoreet in. Morbi sit amet feugiat nibh, sed tempus risus.
+                        The primary objectives of this project were to:
+                        <ul className={"objectiveList"}>
+                            <li>
+                                Develop a mobile application that runs on the iOS and Android operating system.
+                            </li>
+                            <li>
+                                Enable the user to control the mobile application by reading their brain activity.
+                            </li>
+                            <li>
+                                Develop a desktop application that runs on the Windows and macOS platform.
+                            </li>
+                            <li>
+                                Develop a desktop application that connects the Emotiv headset to the mobile
+                                application.
+                            </li>
+                            <li>
+                                Provide opportunities for the application users to communicate with others.
+                            </li>
+                            <li>
+                                Provide text-to-speech functionality.
+                            </li>
+                            <li>
+                                Provide a keyboard designed for typing with brain activity.
+                            </li>
+                            <li>
+                                Integrate some sort of smart solution into the mobile application.
+                            </li>
+                        </ul>
                     </p>
                 </div>
 

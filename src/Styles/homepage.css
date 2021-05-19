@@ -28,6 +28,12 @@
     margin: auto;
 }
 
+.objectiveList{
+    display: table;
+    padding: 0 20%;
+    text-align: left;
+}
+
 @media only screen and (max-width: 768px) {
     .youtubeDiv iframe{
         width: 75vw;

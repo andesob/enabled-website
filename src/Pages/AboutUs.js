@@ -13,28 +13,21 @@ class AboutUs extends Component {
                     </header>
                     <div className={"aboutUsTextDiv"}>
                         <p className={"aboutUsParagraph"}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nibh tincidunt,
-                            tincidunt
-                            justo vitae, cursus ligula. Vivamus dignissim diam in ante tempor suscipit. Class aptent
-                            taciti
-                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sodales
-                            molestie
-                            sapien in congue. Donec dictum nibh vitae egestas consequat. Etiam et tortor at orci dapibus
-                            cursus sit amet sed magna. Ut mattis ligula eros, vitae elementum odio porta ac. Sed
-                            tincidunt
-                            risus ut magna vestibulum, nec dignissim enim malesuada. Nullam a lectus lacus. Cras non
-                            urna in
-                            lacus varius tristique.
-
-                            Mauris tincidunt urna id nulla tincidunt placerat. Donec consequat mauris at felis dignissim
-                            molestie. Curabitur et ipsum eget turpis fermentum viverra ac at odio. Nam tortor turpis,
-                            consequat a ultricies laoreet, vestibulum et leo. Cras quis purus ante. Donec interdum magna
-                            eu
-                            mauris vulputate pharetra. Suspendisse ultricies fringilla leo. In porta placerat est, non
-                            tincidunt velit scelerisque at. Cras dictum molestie mollis. Pellentesque nec dui aliquam,
-                            gravida lacus at, tristique arcu. Sed dui lectus, dapibus non eros et, maximus sodales
-                            lectus.
-                            Morbi eu dapibus ante. Suspendisse pharetra eleifend faucibus. Praesent non dui velit.
+                            The Enabled EEG app team consists of 4 students from NTNU in Ålesund. That is Trym Jørgensen,
+                            Andreas Sunde, Anders Søbakken, and Eskil Torland. The team worked together on the Enabled
+                            EEG mobile application and the Enabled Desktop Application as a part of their Bachelor
+                            Thesis for the spring of 2021. For more information about the project you can access the
+                            Bachelor Thesis here or access the github pages here:
+                            <ul className={"githubList"}>
+                                <li>
+                                    <a href={"https://github.com/rojahno/enabled-desktop"}>Enabled Desktop Application</a>.
+                                </li>
+                                <li>
+                                    <a href={"https://github.com/andesob/Enabled-app"}>Enabled Mobile Application</a>.
+                                </li>
+                            </ul>
+                            You can access our personal github pages by clicking the profile
+                            pictures below.
                         </p>
                     </div>
                 </div>
@@ -51,12 +44,7 @@ class AboutUs extends Component {
                                 </a>
                                 <h3>Founder</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ultrices lacus.
-                                    Aenean accumsan consectetur eros sit amet auctor. Pellentesque convallis, est et
-                                    fringilla pretium, augue ante rutrum sapien, sit amet vestibulum lorem enim ut
-                                    risus. Proin fermentum nisi dui, eu volutpat ligula elementum ac. Proin nec arcu in
-                                    arcu pharetra varius et non lacus. Sed urna nibh, tempor ac tellus eget, consectetur
-                                    mollis sem. Ut et aliquam enim. Vivamus luctus orci dictum suscipit vestibulum.
+
                                 </p>
                             </div>
                             <div className={"singleDevDiv"}>
@@ -66,12 +54,7 @@ class AboutUs extends Component {
                                 </a>
                                 <h3>Project Owner</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ultrices lacus.
-                                    Aenean accumsan consectetur eros sit amet auctor. Pellentesque convallis, est et
-                                    fringilla pretium, augue ante rutrum sapien, sit amet vestibulum lorem enim ut
-                                    risus. Proin fermentum nisi dui, eu volutpat ligula elementum ac. Proin nec arcu in
-                                    arcu pharetra varius et non lacus. Sed urna nibh, tempor ac tellus eget, consectetur
-                                    mollis sem. Ut et aliquam enim. Vivamus luctus orci dictum suscipit vestibulum.
+
                                 </p>
                             </div>
                         </div>
@@ -88,12 +71,7 @@ class AboutUs extends Component {
                                 </a>
                                 <h3>Founder</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ultrices lacus.
-                                    Aenean accumsan consectetur eros sit amet auctor. Pellentesque convallis, est et
-                                    fringilla pretium, augue ante rutrum sapien, sit amet vestibulum lorem enim ut
-                                    risus. Proin fermentum nisi dui, eu volutpat ligula elementum ac. Proin nec arcu in
-                                    arcu pharetra varius et non lacus. Sed urna nibh, tempor ac tellus eget, consectetur
-                                    mollis sem. Ut et aliquam enim. Vivamus luctus orci dictum suscipit vestibulum.
+
                                 </p>
                             </div>
                             <div className={"singleDevDiv"}>
@@ -104,12 +82,7 @@ class AboutUs extends Component {
                                 </a>
                                 <h3>Founder</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ultrices lacus.
-                                    Aenean accumsan consectetur eros sit amet auctor. Pellentesque convallis, est et
-                                    fringilla pretium, augue ante rutrum sapien, sit amet vestibulum lorem enim ut
-                                    risus. Proin fermentum nisi dui, eu volutpat ligula elementum ac. Proin nec arcu in
-                                    arcu pharetra varius et non lacus. Sed urna nibh, tempor ac tellus eget, consectetur
-                                    mollis sem. Ut et aliquam enim. Vivamus luctus orci dictum suscipit vestibulum.
+
                                 </p>
                             </div>
                         </div>
